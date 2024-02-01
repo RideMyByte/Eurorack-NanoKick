@@ -3,5 +3,19 @@ The modular synthesizer kick drum module is developed using Arduino programming 
 
 ## Source
 The code and circuitry originate from [HAGIWO](https://note.com/solder_state/n/ne33e32660d50).
+
 ## My Part
 I've contributed by designing the PCB, creating the front panel, ensuring a clean layout, and providing a Bill of Materials (BOM). The intention is to simplify the replication of these modules for others.
+
+## How to use
+Download the Gerber files and order the boards from JLCPCB / PCBWay or others. Order the components from the BOM and solder them by hand. I chose 0805 SMD components because they are still easy to solder by hand. 
+
+## Customize
+You can simply redesign the front PCB for visual adjustments. 
+To do this, log in to EasyEDA, upload the PCB/EasyEDA_PCB_FrontPlate.json and customize the "board". There are no components on the board. Only the holes and dimensions have to fit. Have fun!
+
+## Images
+<img src="Images/Front.png" height="350"> <img src="Images/PCB.png" height="350">
+
+## Schematic
+<img src="Images/Schematic.png" width="80%">
